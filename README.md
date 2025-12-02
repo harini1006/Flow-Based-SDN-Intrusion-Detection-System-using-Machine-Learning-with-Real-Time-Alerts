@@ -22,10 +22,15 @@ A Machine Learning–driven IDS is necessary to handle SDN flow datasets efficie
 
 ## 🎯Objectives:
 • Develop a robust ML model to classify SDN flow traffic
+
 • Provide real-time and batch prediction capabilities
+
 • Create a user-friendly web interface for easy usage
+
 • Enable admin monitoring through graphical analytics
+
 • Improve accuracy and reduce false alarms
+
 • Design a scalable system suitable for modern SDN networks.
 
 ## Key Features:
