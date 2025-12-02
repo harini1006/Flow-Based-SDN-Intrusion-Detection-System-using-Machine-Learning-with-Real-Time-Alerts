@@ -139,10 +139,13 @@ Database: SQLite
 ## Output:
 ### Login Page:
 <img width="738" height="408" alt="image" src="https://github.com/user-attachments/assets/35e723b6-d865-4422-ac82-60ca9b95ae3f" />
+
 ### Home Page:
 <img width="1853" height="884" alt="image" src="https://github.com/user-attachments/assets/fb292ed8-6a4a-41c8-920d-39919f4c60db" />
+
 ### Prediction Result:
 <img width="921" height="512" alt="image" src="https://github.com/user-attachments/assets/28f04f5b-4ba5-4bdc-882a-185f1c3ae488" />
+
 ### Admin Dashboard:
 <img width="953" height="522" alt="image" src="https://github.com/user-attachments/assets/f5ff4579-6544-4c5e-b00f-bdbe3b746209" />
 
