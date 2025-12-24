@@ -1,49 +1,66 @@
-# Intelligent SDN Intrusion Detection System
-## Machine Learning–Based Flow Traffic Classification for Secure SDN Networks 
+
 ## 📌Overview:
-The Intelligent SDN Intrusion Detection System (IDS) is a flow-based traffic classification system designed to enhance the security of Software-Defined Networking (SDN) environments.
-It uses Machine Learning models, built using Scikit-learn and deployed through Flask, to classify network flows as Normal or Malicious.
+The Intelligent SDN Intrusion Detection System (IDS) is a flow-based traffic classification system designed to enhance the security of Software-Defined Networking (SDN) environments. The system uses Machine Learning models built with Scikit-learn and deployed through a Flask-based web application to classify network traffic as Benign or Malicious.
+
+In addition to intrusion detection, the system provides real-time email alerts to notify the network administrator immediately when cyberattacks are detected.
 
 The system supports:
 
 1.Real-time single flow prediction
 
+
 2.CSV-based bulk log prediction
 
-3.User authentication
 
-4.Admin analytics dashboard with attack distribution charts
+3.User authentication (Login & Registration)
 
-The goal is to strengthen SDN security by providing a fast, scalable, and intelligent intrusion detection solution.
+
+4.Admin analytics dashboard with attack distribution and logs
+
+
+5.Automated email alerts on attack detection
+
+
+The goal of this project is to provide a fast, scalable, and deployable SDN security solution using flow-based machine learning techniques.
 
 ## ❗Problem Statement:
-SDN environments rely on a centralized controller, making them vulnerable to several attacks such as DDoS, Probing, Spoofing, and Botnet traffic.
-Traditional IDS systems face challenges including:
+SDN environments rely on a centralized controller, which makes them vulnerable to various cyberattacks such as DDoS, probing, spoofing, and botnet traffic. Traditional intrusion detection systems suffer from several limitations, including:
 
-1.High false positives
+1.High false positive rates
 
-2.Lack of adaptability to new attacks
 
-3.Heavy dependency on signatures
+2.Dependence on signature-based detection
 
-4.Manual and slow log analysis
 
-5.Inability to scale with high-volume SDN traffic
+3.Poor adaptability to new attack patterns
 
-A Machine Learning–driven IDS is necessary to handle SDN flow datasets efficiently and detect malicious traffic with high accuracy.
+
+4.Manual and time-consuming log analysis
+
+
+5.Limited scalability with high-volume SDN traffic
+
+
+To overcome these challenges, a Machine Learning–based IDS that efficiently analyzes SDN flow data and supports real-time alerting is required.
 
 ## 🎯Objectives:
-• Develop a robust ML model to classify SDN flow traffic
+• Develop a robust machine learning model for SDN flow classification
 
-• Provide real-time and batch prediction capabilities
 
-• Create a user-friendly web interface for easy usage
+• Enable real-time and batch intrusion detection
 
-• Enable admin monitoring through graphical analytics
 
-• Improve accuracy and reduce false alarms
+• Provide a user-friendly web interface
 
-• Design a scalable system suitable for modern SDN networks.
+
+• Support admin monitoring through visual analytics
+
+
+• Reduce false alarms while improving detection accuracy
+
+
+• Design a scalable system suitable for modern SDN networks
+
 
 ## Key Features:
 ### User Features:
